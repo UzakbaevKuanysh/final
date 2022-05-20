@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/CountriesListFragment"
-        android:name="com.example.todolist.ui.CountriesListFragment"
+        android:name="com.example.finalproject.ui.CountriesListFragment"
         android:label="CountriesListFragment" >
         <action
             android:id="@+id/action_CountriesListFragment_to_CountriesDetailFragment"
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/CountriesDetailFragment"
-        android:name="com.example.todolist.ui.CountriesDetailFragment"
+        android:name="com.example.finalproject.ui.CountriesDetailFragment"
         android:label="fragment_countries_detail"
         tools:layout="@layout/fragment_countries_detail" />
 </navigation>
